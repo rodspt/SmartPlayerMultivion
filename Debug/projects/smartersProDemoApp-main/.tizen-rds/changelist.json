@@ -1,0 +1,543 @@
+{
+  "projectDir": "c:\\Users\\Rodrigo\\Downloads\\achado\\smartersProDemoApp-main\\smartersProDemoApp-main",
+  "deploys": {
+    "next": [
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/clear-cache-icon-white.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/demo-img-card.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/demo-img-card2.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/down-arrow.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/edit-file-icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/eye-closed.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/eye-open.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/heart-icon-not-filled.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/heartIcon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/left-union.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/list-users.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/live-selected-icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/login-right-image.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/main-logo.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/nav-profile-icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/noImageFound.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/parental-icon-black.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/parental-icon-white.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/parental-lock-icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/placeholder-img.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/playicon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/playlist-icon-active.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/playlist-icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/qr-code.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/rating-star.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/search-icon-navbar.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/search-icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/series-demo.jpg",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/sidebar-account.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/sidebar-list-user.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/sidebar-settings.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/sidebar-sort.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/splash-logo.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/splash-video.mp4",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/stream-icon-black.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/stream-icon-white.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/streamformat-icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/switch-user-icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/time-icon-black.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/time-icon-white.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/timeIcon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/white-live-progress.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components/ExitModal.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components/HomeCarousel.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components/Navbar.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components/ParentalPinDialog.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components/SplashScreen.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components/Toaster.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components/videoPlayers/FlowPlayer.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components/videoPlayers/VideoJsPlayer.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/config.xml",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/config/firebase.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/accountPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/accountSettings.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/exitModal.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/homeCarousel.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/homePage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/listUsersPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/livepage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/livetvPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/loginPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/movieDetailPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/moviesPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/navbar.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/parentalControl.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/parentalPinDialog.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/paymentPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/policyPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/preLoginPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/seriesDetailPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/seriesPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/settingsPage.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/splashScreen.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/streamFormat.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/style.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/timeFormat.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/toaster.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css/videoPlayer.css",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/icon.png",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/images/tizen_32.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/index.html",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/js/main.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/megatv-icon.png",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/AccountPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/HomePage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/ListUsersPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/LivePage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/LiveTVPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/LiveVideoJsComponent.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/LoginPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/MovieDetailPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/MoviesPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/PaymentPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/PolicyPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/PreLoginPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/SeriesDetailPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/SeriesPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/SettingsPage.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/settingsPages/AccountInformation.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/settingsPages/ParentalControl.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/settingsPages/StreamFormat.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/settingsPages/TimeFormat.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/splash-logo.png",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/utils/aspectRatioUtils.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/utils/constants.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/utils/router.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/utils/utils.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.gitignore",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.vscode",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/api",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/config",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/css",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/images",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/js",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/README.md",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/utils",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/app-logo.png",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.vscode/settings.json",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/api/apiFunctions.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/account-user.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/add-user-icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/app-logo.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/bg-gradient.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/black-live-progress.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/card-play-icon.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/assets/clear-cache-icon-black.png",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/tools/install-tv.cmd",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/tools/install-tv.ps1",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/tools",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components/videoPlayers",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/pages/settingsPages",
+        "type": "add"
+      }
+    ]
+  }
+}

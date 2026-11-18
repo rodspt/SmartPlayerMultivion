@@ -1,0 +1,721 @@
+{
+  "deployId": 1,
+  "projectDir": "c:\\Users\\Rodrigo\\Downloads\\achado\\smartersProDemoApp-main\\smartersProDemoApp-main",
+  "timestamp": "2026-11-18T00:51:09.647Z",
+  "hashAlgorithm": "xxh3-128",
+  "input": {
+    "splash-logo.png": {
+      "hash": "e3453dbc15eaac92bba99985d83444e1"
+    },
+    "README.md": {
+      "hash": "f8d608625d78dccacdf51262f37fdcae"
+    },
+    "megatv-icon.png": {
+      "hash": "c78ba2d07fca74e15b158414fc662a2d"
+    },
+    "index.html": {
+      "hash": "1cd05b48fa7dd2ea2155f239075288ab"
+    },
+    "icon.png": {
+      "hash": "1a426fbb8d27a3d3d797ae8415546bde"
+    },
+    "config.xml": {
+      "hash": "e31665c64db7a4c74c40a46cbc58c054"
+    },
+    "app-logo.png": {
+      "hash": "e312a5da4eb90d7295b06a52e580a581"
+    },
+    ".gitignore": {
+      "hash": "30e3408424fdd1a9726a2f57b7facf55"
+    },
+    "utils/utils.js": {
+      "hash": "44f6c14d87e6951026beabc8017f30d0"
+    },
+    "utils/router.js": {
+      "hash": "3c8bcaf6146258ac51ed3904c51d73fa"
+    },
+    "utils/constants.js": {
+      "hash": "1b4be91394f14ea626f95290f939a253"
+    },
+    "utils/aspectRatioUtils.js": {
+      "hash": "7094bfb3e2920c4e78e8ce9bb26c00f7"
+    },
+    "pages/SettingsPage.js": {
+      "hash": "d9a751deb349e0967a0112bab9175357"
+    },
+    "pages/SeriesPage.js": {
+      "hash": "883bc0cfeca70275a7dd63498f2bfe5e"
+    },
+    "pages/SeriesDetailPage.js": {
+      "hash": "2feaf20fb25c824b33d6c357627b83c9"
+    },
+    "pages/PreLoginPage.js": {
+      "hash": "de9229739a858c90543273db96406119"
+    },
+    "pages/PolicyPage.js": {
+      "hash": "89b0b70c821bbe5377bc2399450b6086"
+    },
+    "pages/PaymentPage.js": {
+      "hash": "fce405b765564222e57e70fb2510125a"
+    },
+    "pages/MoviesPage.js": {
+      "hash": "9ebfb66f8a48dd5509783705d69ef17f"
+    },
+    "pages/MovieDetailPage.js": {
+      "hash": "3ad5f35b98210c1645bf8b8e38fd515c"
+    },
+    "pages/LoginPage.js": {
+      "hash": "9c690989a0e71433d885c0696adf7840"
+    },
+    "pages/LiveVideoJsComponent.js": {
+      "hash": "80b0692e976945fd45d5438a2e53c67a"
+    },
+    "pages/LiveTVPage.js": {
+      "hash": "9e402f9dd0c9676c02022cc8268c6c47"
+    },
+    "pages/LivePage.js": {
+      "hash": "1754655d47b718ace241fb462da0e691"
+    },
+    "pages/ListUsersPage.js": {
+      "hash": "ec745031a7a43279c59bf2190d64b538"
+    },
+    "pages/HomePage.js": {
+      "hash": "a73c0bb5b4f08ceac92f4031da1dabe4"
+    },
+    "pages/AccountPage.js": {
+      "hash": "fb30404085f23d36953e073509e37e53"
+    },
+    "js/main.js": {
+      "hash": "a6672209676746f2fd12a110962a36ad"
+    },
+    "images/tizen_32.png": {
+      "hash": "58e5dcb3efbb5317d0a59fe8d10d4e5d"
+    },
+    "css/videoPlayer.css": {
+      "hash": "5887c19062137e6a4ad2ce8f57a333df"
+    },
+    "css/toaster.css": {
+      "hash": "10e8b27fa835286dbcaf44ecf1444ada"
+    },
+    "css/timeFormat.css": {
+      "hash": "2921bc12d46347d0a472773388cfe8cb"
+    },
+    "css/style.css": {
+      "hash": "c2b1192d9cbe0f4ee1173d571d94b9ce"
+    },
+    "css/streamFormat.css": {
+      "hash": "bba97925e1d86e72f345a98fcdda9c3e"
+    },
+    "css/splashScreen.css": {
+      "hash": "c801e8ef34983e4d7227f6f74dce1fb4"
+    },
+    "css/settingsPage.css": {
+      "hash": "096518420ee26e56e0cdcbe39618f06b"
+    },
+    "css/seriesPage.css": {
+      "hash": "f8c8c97ba1f65f007fa5b93ff9db1d9c"
+    },
+    "css/seriesDetailPage.css": {
+      "hash": "dfe834e8c64c8ff4a6bda605a8ebca3f"
+    },
+    "css/preLoginPage.css": {
+      "hash": "cfdc381b877a4d2617b42af339de432d"
+    },
+    "css/policyPage.css": {
+      "hash": "8b44d02401c7d917fc5a44e8aad1757e"
+    },
+    "css/paymentPage.css": {
+      "hash": "07f678b828a131afa74d88ed795f43e0"
+    },
+    "css/parentalPinDialog.css": {
+      "hash": "5eba19916de01343330303ae442892cb"
+    },
+    "css/parentalControl.css": {
+      "hash": "851046d4aafddb87965f6ccb669e9be1"
+    },
+    "css/navbar.css": {
+      "hash": "f0b52f85d1f0484de0b2e5739d9334bf"
+    },
+    "css/moviesPage.css": {
+      "hash": "321c0117edc1c961aa670f1c92fde8f7"
+    },
+    "css/movieDetailPage.css": {
+      "hash": "ea7ebfc212582c8ddfb77b86c21993a4"
+    },
+    "css/loginPage.css": {
+      "hash": "f454d37614cbaea172f2a25c323129c2"
+    },
+    "css/livetvPage.css": {
+      "hash": "11eefd0908c54ac4077b0ec6ef32e266"
+    },
+    "css/livepage.css": {
+      "hash": "f15ea4d04da263b971a4eec7b28a55b4"
+    },
+    "css/listUsersPage.css": {
+      "hash": "dd7db047f99cfe28d94073f9bbb5894a"
+    },
+    "css/homePage.css": {
+      "hash": "fcd283d7edbac331eaf746a9782e0547"
+    },
+    "css/homeCarousel.css": {
+      "hash": "69105b1fb22449eff525d6bb3f414200"
+    },
+    "css/exitModal.css": {
+      "hash": "615a8fd52ff34f03e747d5f50d781398"
+    },
+    "css/accountSettings.css": {
+      "hash": "90b67c39a53c1a107991cff603feb902"
+    },
+    "css/accountPage.css": {
+      "hash": "df7d84f55f191b5b44bccd00013d5e90"
+    },
+    "config/firebase.js": {
+      "hash": "9c4566267b184b0a84b1c78cfb3f6339"
+    },
+    "components/Toaster.js": {
+      "hash": "a060dc59e327a129d6e089297df0bdc6"
+    },
+    "components/SplashScreen.js": {
+      "hash": "57be35cad133e399d6846d4da601452b"
+    },
+    "components/ParentalPinDialog.js": {
+      "hash": "8dc6ed1e1fb812d24afe19a501e76c41"
+    },
+    "components/Navbar.js": {
+      "hash": "f1e4e7d25b8677803db263692d6039d9"
+    },
+    "components/HomeCarousel.js": {
+      "hash": "a18c914a595ec259438a0f1ced558a04"
+    },
+    "components/ExitModal.js": {
+      "hash": "cfc60dd1843b3f5b41770b2cc0b0d54b"
+    },
+    "assets/white-live-progress.png": {
+      "hash": "0f32999d3a3ebf26b9d69dc8fa2cf3df"
+    },
+    "assets/timeIcon.png": {
+      "hash": "9d1e9984107027444ce99154089fd0bf"
+    },
+    "assets/time-icon-white.png": {
+      "hash": "c98726ecc1775c5c88d392858eb83ea5"
+    },
+    "assets/time-icon-black.png": {
+      "hash": "fb419630997bf06969c8248735e961da"
+    },
+    "assets/switch-user-icon.png": {
+      "hash": "2ca38b57482819b66077bd75d88c0503"
+    },
+    "assets/streamformat-icon.png": {
+      "hash": "3d2bcffa9e3e85b59bb69c079edc22da"
+    },
+    "assets/stream-icon-white.png": {
+      "hash": "d867c39e9e9a8bf74f8973bc54ccf71e"
+    },
+    "assets/stream-icon-black.png": {
+      "hash": "72fb54d49fa2f22fc8efc3d3d8fb953c"
+    },
+    "assets/splash-video.mp4": {
+      "hash": "213cc88865faec28ba7790187316d2cb"
+    },
+    "assets/splash-logo.png": {
+      "hash": "e3453dbc15eaac92bba99985d83444e1"
+    },
+    "assets/sidebar-sort.png": {
+      "hash": "abe0bb33690e971c45d58e694bdd2b79"
+    },
+    "assets/sidebar-settings.png": {
+      "hash": "e3e36d5319d3e3e8a89c010da1af0c39"
+    },
+    "assets/sidebar-list-user.png": {
+      "hash": "f7a2d941ed133c839a5d375136764452"
+    },
+    "assets/sidebar-account.png": {
+      "hash": "ad9abb9f567491719a860f7a6a68c29a"
+    },
+    "assets/series-demo.jpg": {
+      "hash": "8033e012ff51310557ce5922c305cfa2"
+    },
+    "assets/search-icon.png": {
+      "hash": "9b544be0702eb59573a962ba14de8321"
+    },
+    "assets/search-icon-navbar.png": {
+      "hash": "5dce40614f56a1b05bed1f387ca3421b"
+    },
+    "assets/rating-star.png": {
+      "hash": "99d9d9675b5e4e1e249e816988d4bb24"
+    },
+    "assets/qr-code.png": {
+      "hash": "ad50a1ca4b8ce7798b2495831f977a25"
+    },
+    "assets/playlist-icon.png": {
+      "hash": "c590564cb459bd3b4460d1e57f380475"
+    },
+    "assets/playlist-icon-active.png": {
+      "hash": "94d9795a1276ad47486b2c7968df1686"
+    },
+    "assets/playicon.png": {
+      "hash": "4bebce5f3376f54f8c8e3ea4cf008660"
+    },
+    "assets/placeholder-img.png": {
+      "hash": "ce80caedf88e7827b9fbe3f2d8400169"
+    },
+    "assets/parental-lock-icon.png": {
+      "hash": "31a4c944b2460523c7c7be0890373c80"
+    },
+    "assets/parental-icon-white.png": {
+      "hash": "e62a5001b9401d3ddf9d09386b89ceff"
+    },
+    "assets/parental-icon-black.png": {
+      "hash": "42c0a5e9ba255585ec16d03c667cfb2d"
+    },
+    "assets/noImageFound.png": {
+      "hash": "96e21e60745659f8f0aae237a87d1590"
+    },
+    "assets/nav-profile-icon.png": {
+      "hash": "0f0977b762f1eb6ff536a67be224b98f"
+    },
+    "assets/main-logo.png": {
+      "hash": "5fc69d19fdded2d52b5649924afa0aa3"
+    },
+    "assets/login-right-image.png": {
+      "hash": "37b267dfd43116296d232a9adb07d874"
+    },
+    "assets/live-selected-icon.png": {
+      "hash": "e802671679e7336da147fb3d47955353"
+    },
+    "assets/list-users.png": {
+      "hash": "b87f70b208260366846c4dff75955382"
+    },
+    "assets/left-union.png": {
+      "hash": "e00e2b4552b7d6ee2d3d2ab23fc2ce42"
+    },
+    "assets/heartIcon.png": {
+      "hash": "549d8b94f7e316ebcc83dc3622e1e43c"
+    },
+    "assets/heart-icon-not-filled.png": {
+      "hash": "36836c08e1e01f5652c92b1458c829f7"
+    },
+    "assets/eye-open.png": {
+      "hash": "2c1a23ce3bb11f3a8904cb36557cc93b"
+    },
+    "assets/eye-closed.png": {
+      "hash": "35255d3ff4d26af98ea071b5be0f9473"
+    },
+    "assets/edit-file-icon.png": {
+      "hash": "31fe4abde8eba851390043e473999d4b"
+    },
+    "assets/down-arrow.png": {
+      "hash": "e2262a9efad643d07af21b50c2746755"
+    },
+    "assets/demo-img-card2.png": {
+      "hash": "8e9e986813d7b8c2bc4f8103d641c9c2"
+    },
+    "assets/demo-img-card.png": {
+      "hash": "96e21e60745659f8f0aae237a87d1590"
+    },
+    "assets/clear-cache-icon-white.png": {
+      "hash": "a82b076f6aaf0fcf012fe5c62c59dd23"
+    },
+    "assets/clear-cache-icon-black.png": {
+      "hash": "89b951d6e3ceed6cd4710909c52d4c38"
+    },
+    "assets/card-play-icon.png": {
+      "hash": "d7b339aab2a7275677acbb2990f23221"
+    },
+    "assets/black-live-progress.png": {
+      "hash": "48443b0af55404badb2a65a27bc81dae"
+    },
+    "assets/bg-gradient.png": {
+      "hash": "2db1e4036cf74bbf34b0a1f4228e77cd"
+    },
+    "assets/app-logo.png": {
+      "hash": "2bff4d5472968ef6a47681415afb8e42"
+    },
+    "assets/add-user-icon.png": {
+      "hash": "f0828f8989f90392daeaeb766aa055d1"
+    },
+    "assets/account-user.png": {
+      "hash": "435d068dbcdf07450b10d4b08d18f8ed"
+    },
+    "api/apiFunctions.js": {
+      "hash": "d05154929282ae73e9e042a7d09a879a"
+    },
+    "pages/settingsPages/TimeFormat.js": {
+      "hash": "805f84df743fc03880642b7b625e4044"
+    },
+    "pages/settingsPages/StreamFormat.js": {
+      "hash": "c4b850250561b56aedf834a664b8a089"
+    },
+    "pages/settingsPages/ParentalControl.js": {
+      "hash": "5044adb726a0c5dcf87f77766b9a9371"
+    },
+    "pages/settingsPages/AccountInformation.js": {
+      "hash": "9e1b68b28b3bd44e54a287fb087c36e4"
+    },
+    "components/videoPlayers/VideoJsPlayer.js": {
+      "hash": "ab02c67596df577bd25358726c714ba2"
+    },
+    "components/videoPlayers/FlowPlayer.js": {
+      "hash": "a37c979154d5bb55bfc3642052c36a0c"
+    }
+  },
+  "output": {
+    "Debug/projects/smartersProDemoApp-main/splash-logo.png": {
+      "hash": "e3453dbc15eaac92bba99985d83444e1"
+    },
+    "Debug/projects/smartersProDemoApp-main/README.md": {
+      "hash": "f8d608625d78dccacdf51262f37fdcae"
+    },
+    "Debug/projects/smartersProDemoApp-main/megatv-icon.png": {
+      "hash": "c78ba2d07fca74e15b158414fc662a2d"
+    },
+    "Debug/projects/smartersProDemoApp-main/index.html": {
+      "hash": "1cd05b48fa7dd2ea2155f239075288ab"
+    },
+    "Debug/projects/smartersProDemoApp-main/icon.png": {
+      "hash": "1a426fbb8d27a3d3d797ae8415546bde"
+    },
+    "Debug/projects/smartersProDemoApp-main/config.xml": {
+      "hash": "e31665c64db7a4c74c40a46cbc58c054"
+    },
+    "Debug/projects/smartersProDemoApp-main/app-logo.png": {
+      "hash": "e312a5da4eb90d7295b06a52e580a581"
+    },
+    "Debug/projects/smartersProDemoApp-main/.gitignore": {
+      "hash": "30e3408424fdd1a9726a2f57b7facf55"
+    },
+    "Debug/projects/smartersProDemoApp-main/utils/utils.js": {
+      "hash": "44f6c14d87e6951026beabc8017f30d0"
+    },
+    "Debug/projects/smartersProDemoApp-main/utils/router.js": {
+      "hash": "3c8bcaf6146258ac51ed3904c51d73fa"
+    },
+    "Debug/projects/smartersProDemoApp-main/utils/constants.js": {
+      "hash": "1b4be91394f14ea626f95290f939a253"
+    },
+    "Debug/projects/smartersProDemoApp-main/utils/aspectRatioUtils.js": {
+      "hash": "7094bfb3e2920c4e78e8ce9bb26c00f7"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/SettingsPage.js": {
+      "hash": "d9a751deb349e0967a0112bab9175357"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/SeriesPage.js": {
+      "hash": "883bc0cfeca70275a7dd63498f2bfe5e"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/SeriesDetailPage.js": {
+      "hash": "2feaf20fb25c824b33d6c357627b83c9"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/PreLoginPage.js": {
+      "hash": "de9229739a858c90543273db96406119"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/PolicyPage.js": {
+      "hash": "89b0b70c821bbe5377bc2399450b6086"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/PaymentPage.js": {
+      "hash": "fce405b765564222e57e70fb2510125a"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/MoviesPage.js": {
+      "hash": "9ebfb66f8a48dd5509783705d69ef17f"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/MovieDetailPage.js": {
+      "hash": "3ad5f35b98210c1645bf8b8e38fd515c"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/LoginPage.js": {
+      "hash": "9c690989a0e71433d885c0696adf7840"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/LiveVideoJsComponent.js": {
+      "hash": "80b0692e976945fd45d5438a2e53c67a"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/LiveTVPage.js": {
+      "hash": "9e402f9dd0c9676c02022cc8268c6c47"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/LivePage.js": {
+      "hash": "1754655d47b718ace241fb462da0e691"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/ListUsersPage.js": {
+      "hash": "ec745031a7a43279c59bf2190d64b538"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/HomePage.js": {
+      "hash": "a73c0bb5b4f08ceac92f4031da1dabe4"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/AccountPage.js": {
+      "hash": "fb30404085f23d36953e073509e37e53"
+    },
+    "Debug/projects/smartersProDemoApp-main/js/main.js": {
+      "hash": "a6672209676746f2fd12a110962a36ad"
+    },
+    "Debug/projects/smartersProDemoApp-main/images/tizen_32.png": {
+      "hash": "58e5dcb3efbb5317d0a59fe8d10d4e5d"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/videoPlayer.css": {
+      "hash": "5887c19062137e6a4ad2ce8f57a333df"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/toaster.css": {
+      "hash": "10e8b27fa835286dbcaf44ecf1444ada"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/timeFormat.css": {
+      "hash": "2921bc12d46347d0a472773388cfe8cb"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/style.css": {
+      "hash": "c2b1192d9cbe0f4ee1173d571d94b9ce"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/streamFormat.css": {
+      "hash": "bba97925e1d86e72f345a98fcdda9c3e"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/splashScreen.css": {
+      "hash": "c801e8ef34983e4d7227f6f74dce1fb4"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/settingsPage.css": {
+      "hash": "096518420ee26e56e0cdcbe39618f06b"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/seriesPage.css": {
+      "hash": "f8c8c97ba1f65f007fa5b93ff9db1d9c"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/seriesDetailPage.css": {
+      "hash": "dfe834e8c64c8ff4a6bda605a8ebca3f"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/preLoginPage.css": {
+      "hash": "cfdc381b877a4d2617b42af339de432d"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/policyPage.css": {
+      "hash": "8b44d02401c7d917fc5a44e8aad1757e"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/paymentPage.css": {
+      "hash": "07f678b828a131afa74d88ed795f43e0"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/parentalPinDialog.css": {
+      "hash": "5eba19916de01343330303ae442892cb"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/parentalControl.css": {
+      "hash": "851046d4aafddb87965f6ccb669e9be1"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/navbar.css": {
+      "hash": "f0b52f85d1f0484de0b2e5739d9334bf"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/moviesPage.css": {
+      "hash": "321c0117edc1c961aa670f1c92fde8f7"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/movieDetailPage.css": {
+      "hash": "ea7ebfc212582c8ddfb77b86c21993a4"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/loginPage.css": {
+      "hash": "f454d37614cbaea172f2a25c323129c2"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/livetvPage.css": {
+      "hash": "11eefd0908c54ac4077b0ec6ef32e266"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/livepage.css": {
+      "hash": "f15ea4d04da263b971a4eec7b28a55b4"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/listUsersPage.css": {
+      "hash": "dd7db047f99cfe28d94073f9bbb5894a"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/homePage.css": {
+      "hash": "fcd283d7edbac331eaf746a9782e0547"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/homeCarousel.css": {
+      "hash": "69105b1fb22449eff525d6bb3f414200"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/exitModal.css": {
+      "hash": "615a8fd52ff34f03e747d5f50d781398"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/accountSettings.css": {
+      "hash": "90b67c39a53c1a107991cff603feb902"
+    },
+    "Debug/projects/smartersProDemoApp-main/css/accountPage.css": {
+      "hash": "df7d84f55f191b5b44bccd00013d5e90"
+    },
+    "Debug/projects/smartersProDemoApp-main/config/firebase.js": {
+      "hash": "9c4566267b184b0a84b1c78cfb3f6339"
+    },
+    "Debug/projects/smartersProDemoApp-main/components/Toaster.js": {
+      "hash": "a060dc59e327a129d6e089297df0bdc6"
+    },
+    "Debug/projects/smartersProDemoApp-main/components/SplashScreen.js": {
+      "hash": "57be35cad133e399d6846d4da601452b"
+    },
+    "Debug/projects/smartersProDemoApp-main/components/ParentalPinDialog.js": {
+      "hash": "8dc6ed1e1fb812d24afe19a501e76c41"
+    },
+    "Debug/projects/smartersProDemoApp-main/components/Navbar.js": {
+      "hash": "f1e4e7d25b8677803db263692d6039d9"
+    },
+    "Debug/projects/smartersProDemoApp-main/components/HomeCarousel.js": {
+      "hash": "a18c914a595ec259438a0f1ced558a04"
+    },
+    "Debug/projects/smartersProDemoApp-main/components/ExitModal.js": {
+      "hash": "cfc60dd1843b3f5b41770b2cc0b0d54b"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/white-live-progress.png": {
+      "hash": "0f32999d3a3ebf26b9d69dc8fa2cf3df"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/timeIcon.png": {
+      "hash": "9d1e9984107027444ce99154089fd0bf"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/time-icon-white.png": {
+      "hash": "c98726ecc1775c5c88d392858eb83ea5"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/time-icon-black.png": {
+      "hash": "fb419630997bf06969c8248735e961da"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/switch-user-icon.png": {
+      "hash": "2ca38b57482819b66077bd75d88c0503"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/streamformat-icon.png": {
+      "hash": "3d2bcffa9e3e85b59bb69c079edc22da"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/stream-icon-white.png": {
+      "hash": "d867c39e9e9a8bf74f8973bc54ccf71e"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/stream-icon-black.png": {
+      "hash": "72fb54d49fa2f22fc8efc3d3d8fb953c"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/splash-video.mp4": {
+      "hash": "213cc88865faec28ba7790187316d2cb"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/splash-logo.png": {
+      "hash": "e3453dbc15eaac92bba99985d83444e1"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/sidebar-sort.png": {
+      "hash": "abe0bb33690e971c45d58e694bdd2b79"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/sidebar-settings.png": {
+      "hash": "e3e36d5319d3e3e8a89c010da1af0c39"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/sidebar-list-user.png": {
+      "hash": "f7a2d941ed133c839a5d375136764452"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/sidebar-account.png": {
+      "hash": "ad9abb9f567491719a860f7a6a68c29a"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/series-demo.jpg": {
+      "hash": "8033e012ff51310557ce5922c305cfa2"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/search-icon.png": {
+      "hash": "9b544be0702eb59573a962ba14de8321"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/search-icon-navbar.png": {
+      "hash": "5dce40614f56a1b05bed1f387ca3421b"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/rating-star.png": {
+      "hash": "99d9d9675b5e4e1e249e816988d4bb24"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/qr-code.png": {
+      "hash": "ad50a1ca4b8ce7798b2495831f977a25"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/playlist-icon.png": {
+      "hash": "c590564cb459bd3b4460d1e57f380475"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/playlist-icon-active.png": {
+      "hash": "94d9795a1276ad47486b2c7968df1686"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/playicon.png": {
+      "hash": "4bebce5f3376f54f8c8e3ea4cf008660"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/placeholder-img.png": {
+      "hash": "ce80caedf88e7827b9fbe3f2d8400169"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/parental-lock-icon.png": {
+      "hash": "31a4c944b2460523c7c7be0890373c80"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/parental-icon-white.png": {
+      "hash": "e62a5001b9401d3ddf9d09386b89ceff"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/parental-icon-black.png": {
+      "hash": "42c0a5e9ba255585ec16d03c667cfb2d"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/noImageFound.png": {
+      "hash": "96e21e60745659f8f0aae237a87d1590"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/nav-profile-icon.png": {
+      "hash": "0f0977b762f1eb6ff536a67be224b98f"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/main-logo.png": {
+      "hash": "5fc69d19fdded2d52b5649924afa0aa3"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/login-right-image.png": {
+      "hash": "37b267dfd43116296d232a9adb07d874"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/live-selected-icon.png": {
+      "hash": "e802671679e7336da147fb3d47955353"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/list-users.png": {
+      "hash": "b87f70b208260366846c4dff75955382"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/left-union.png": {
+      "hash": "e00e2b4552b7d6ee2d3d2ab23fc2ce42"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/heartIcon.png": {
+      "hash": "549d8b94f7e316ebcc83dc3622e1e43c"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/heart-icon-not-filled.png": {
+      "hash": "36836c08e1e01f5652c92b1458c829f7"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/eye-open.png": {
+      "hash": "2c1a23ce3bb11f3a8904cb36557cc93b"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/eye-closed.png": {
+      "hash": "35255d3ff4d26af98ea071b5be0f9473"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/edit-file-icon.png": {
+      "hash": "31fe4abde8eba851390043e473999d4b"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/down-arrow.png": {
+      "hash": "e2262a9efad643d07af21b50c2746755"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/demo-img-card2.png": {
+      "hash": "8e9e986813d7b8c2bc4f8103d641c9c2"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/demo-img-card.png": {
+      "hash": "96e21e60745659f8f0aae237a87d1590"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/clear-cache-icon-white.png": {
+      "hash": "a82b076f6aaf0fcf012fe5c62c59dd23"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/clear-cache-icon-black.png": {
+      "hash": "89b951d6e3ceed6cd4710909c52d4c38"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/card-play-icon.png": {
+      "hash": "d7b339aab2a7275677acbb2990f23221"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/black-live-progress.png": {
+      "hash": "48443b0af55404badb2a65a27bc81dae"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/bg-gradient.png": {
+      "hash": "2db1e4036cf74bbf34b0a1f4228e77cd"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/app-logo.png": {
+      "hash": "2bff4d5472968ef6a47681415afb8e42"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/add-user-icon.png": {
+      "hash": "f0828f8989f90392daeaeb766aa055d1"
+    },
+    "Debug/projects/smartersProDemoApp-main/assets/account-user.png": {
+      "hash": "435d068dbcdf07450b10d4b08d18f8ed"
+    },
+    "Debug/projects/smartersProDemoApp-main/api/apiFunctions.js": {
+      "hash": "d05154929282ae73e9e042a7d09a879a"
+    },
+    "Debug/projects/smartersProDemoApp-main/.vscode/settings.json": {
+      "hash": "d00b7426d68db43f3f501a3d36baec4a"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/settingsPages/TimeFormat.js": {
+      "hash": "805f84df743fc03880642b7b625e4044"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/settingsPages/StreamFormat.js": {
+      "hash": "c4b850250561b56aedf834a664b8a089"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/settingsPages/ParentalControl.js": {
+      "hash": "5044adb726a0c5dcf87f77766b9a9371"
+    },
+    "Debug/projects/smartersProDemoApp-main/pages/settingsPages/AccountInformation.js": {
+      "hash": "9e1b68b28b3bd44e54a287fb087c36e4"
+    },
+    "Debug/projects/smartersProDemoApp-main/components/videoPlayers/VideoJsPlayer.js": {
+      "hash": "ab02c67596df577bd25358726c714ba2"
+    },
+    "Debug/projects/smartersProDemoApp-main/components/videoPlayers/FlowPlayer.js": {
+      "hash": "a37c979154d5bb55bfc3642052c36a0c"
+    }
+  }
+}

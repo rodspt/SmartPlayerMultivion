@@ -1,0 +1,176 @@
+# Project type [web_app, test_runner]
+project_type: web_app
+
+# Default profile, Tizen API version
+profile: tv-samsung
+api_version: "2.3"
+
+# Build type [Debug/ Release/ Test]
+build_type: Debug
+
+# Output name for application
+output_name: SmartersProDemoNew
+
+# Output path for build
+output_path: ""
+
+# Enable size optimization of wgt for web workspace
+opt: false
+
+# Signing profile to be used for Tizen package signing
+# If value is empty: "", active signing profile will be used
+# Else If value is ".", default signing profile will be used
+signing_profile: ""
+
+# list of certs in web project (.trust-anchor)
+trust_anchor: []
+
+# list of files in web project (.html,.css etc) and resources
+files:
+  - .gitignore
+  - .vscode/settings.json
+  - README.md
+  - api/apiFunctions.js
+  - app-logo.png
+  - assets/account-user.png
+  - assets/add-user-icon.png
+  - assets/app-logo.png
+  - assets/bg-gradient.png
+  - assets/black-live-progress.png
+  - assets/card-play-icon.png
+  - assets/clear-cache-icon-black.png
+  - assets/clear-cache-icon-white.png
+  - assets/demo-img-card.png
+  - assets/demo-img-card2.png
+  - assets/down-arrow.png
+  - assets/edit-file-icon.png
+  - assets/eye-closed.png
+  - assets/eye-open.png
+  - assets/heart-icon-not-filled.png
+  - assets/heartIcon.png
+  - assets/left-union.png
+  - assets/list-users.png
+  - assets/live-selected-icon.png
+  - assets/login-right-image.png
+  - assets/main-logo.png
+  - assets/nav-profile-icon.png
+  - assets/noImageFound.png
+  - assets/parental-icon-black.png
+  - assets/parental-icon-white.png
+  - assets/parental-lock-icon.png
+  - assets/placeholder-img.png
+  - assets/playicon.png
+  - assets/playlist-icon-active.png
+  - assets/playlist-icon.png
+  - assets/qr-code.png
+  - assets/rating-star.png
+  - assets/search-icon-navbar.png
+  - assets/search-icon.png
+  - assets/series-demo.jpg
+  - assets/sidebar-account.png
+  - assets/sidebar-list-user.png
+  - assets/sidebar-settings.png
+  - assets/sidebar-sort.png
+  - assets/splash-logo.png
+  - assets/splash-video.mp4
+  - assets/stream-icon-black.png
+  - assets/stream-icon-white.png
+  - assets/streamformat-icon.png
+  - assets/switch-user-icon.png
+  - assets/time-icon-black.png
+  - assets/time-icon-white.png
+  - assets/timeIcon.png
+  - assets/white-live-progress.png
+  - components/ExitModal.js
+  - components/HomeCarousel.js
+  - components/Navbar.js
+  - components/ParentalPinDialog.js
+  - components/SplashScreen.js
+  - components/Toaster.js
+  - components/videoPlayers/FlowPlayer.js
+  - components/videoPlayers/VideoJsPlayer.js
+  - config/firebase.js
+  - css/accountPage.css
+  - css/accountSettings.css
+  - css/exitModal.css
+  - css/homeCarousel.css
+  - css/homePage.css
+  - css/listUsersPage.css
+  - css/livepage.css
+  - css/livetvPage.css
+  - css/loginPage.css
+  - css/movieDetailPage.css
+  - css/moviesPage.css
+  - css/navbar.css
+  - css/parentalControl.css
+  - css/parentalPinDialog.css
+  - css/paymentPage.css
+  - css/policyPage.css
+  - css/preLoginPage.css
+  - css/seriesDetailPage.css
+  - css/seriesPage.css
+  - css/settingsPage.css
+  - css/splashScreen.css
+  - css/streamFormat.css
+  - css/style.css
+  - css/timeFormat.css
+  - css/toaster.css
+  - css/videoPlayer.css
+  - icon.png
+  - images/tizen_32.png
+  - index.html
+  - js/main.js
+  - megatv-icon.png
+  - pages/AccountPage.js
+  - pages/HomePage.js
+  - pages/ListUsersPage.js
+  - pages/LivePage.js
+  - pages/LiveTVPage.js
+  - pages/LiveVideoJsComponent.js
+  - pages/LoginPage.js
+  - pages/MovieDetailPage.js
+  - pages/MoviesPage.js
+  - pages/PaymentPage.js
+  - pages/PolicyPage.js
+  - pages/PreLoginPage.js
+  - pages/SeriesDetailPage.js
+  - pages/SeriesPage.js
+  - pages/SettingsPage.js
+  - pages/settingsPages/AccountInformation.js
+  - pages/settingsPages/ParentalControl.js
+  - pages/settingsPages/StreamFormat.js
+  - pages/settingsPages/TimeFormat.js
+  - splash-logo.png
+  - utils/aspectRatioUtils.js
+  - utils/constants.js
+  - utils/router.js
+  - utils/utils.js
+
+# list of files to exclude based on the matched patterns
+excludes:
+  - Build/*
+  - Debug/*
+  - Directory.Build.targets
+  - Release/*
+  - Test/*
+  - \.Build/.*
+  - \.buildResult/.*
+  - \.csproj
+  - \.externalToolBuilders/.*
+  - \.gn
+  - \.obj/.*
+  - \.package/.*
+  - \.project
+  - \.rds_delta
+  - \.sdk_delta.info
+  - \.settings/.*
+  - \.sign/.*
+  - \.tizen-ui-builder-tool.xml
+  - \.tproject
+  - \.wgt
+  - tizen_web_project.yaml
+  - webUnitTest/*
+
+# project dependencies
+deps: []
+
