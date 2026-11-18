@@ -88,6 +88,7 @@ files:
   - components/SplashScreen.js
   - components/Toaster.js
   - components/videoPlayers/FlowPlayer.js
+  - components/videoPlayers/LiveFullscreenPlayer.js
   - components/videoPlayers/VideoJsPlayer.js
   - config/firebase.js
   - css/accountPage.css
@@ -170,6 +171,13 @@ excludes:
   - \.wgt
   - tizen_web_project.yaml
   - webUnitTest/*
+  # Nao empacotar repositorio git, configs do editor e scripts de instalacao
+  - .git/.*
+  - .gitignore
+  - .vscode/.*
+  - .tizen-rds/.*
+  - tools/*
+  - README.md
 
 # project dependencies
 deps: []

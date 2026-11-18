@@ -1,3 +1,6 @@
+/* Firebase desativado (nao utilizado). Para reativar, remova este comentario
+   e descomente as tags do Firebase em index.html e a chamada em js/main.js.
+
 var firebaseConfig = {
     apiKey: "AIzaSyC_pzuTpAnFz3mAbiFlQOb7PBt63l0Bm50",
     authDomain: "smarttv-megatv.firebaseapp.com",
@@ -40,3 +43,5 @@ window.getTmbdId = function () {
       alert("Error getting TMDBID entries: " + error.message);
     });
 };
+
+*/

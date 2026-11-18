@@ -324,7 +324,7 @@
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/index.html",
-        "type": "delete"
+        "type": "add"
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/js/main.js",
@@ -448,35 +448,31 @@
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/components",
-        "type": "modify"
+        "type": "delete"
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/config",
-        "type": "modify"
+        "type": "delete"
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/css",
-        "type": "modify"
+        "type": "delete"
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/images",
-        "type": "modify"
+        "type": "delete"
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/js",
-        "type": "modify"
+        "type": "delete"
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/pages",
-        "type": "modify"
-      },
-      {
-        "path": "Debug/projects/smartersProDemoApp-main/README.md",
-        "type": "modify"
+        "type": "delete"
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/utils",
-        "type": "modify"
+        "type": "delete"
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/app-logo.png",
@@ -528,7 +524,7 @@
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/tools",
-        "type": "modify"
+        "type": "delete"
       },
       {
         "path": "Debug/projects/smartersProDemoApp-main/components/videoPlayers",
@@ -537,6 +533,822 @@
       {
         "path": "Debug/projects/smartersProDemoApp-main/pages/settingsPages",
         "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/config",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/description",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/HEAD",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/applypatch-msg.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/commit-msg.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/fsmonitor-watchman.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/post-update.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/pre-applypatch.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/pre-commit.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/pre-merge-commit.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/pre-push.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/pre-rebase.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/pre-receive.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/prepare-commit-msg.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/push-to-checkout.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/sendemail-validate.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/hooks/update.sample",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/index",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/info/exclude",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/logs/HEAD",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/logs/refs/heads/master",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/logs/refs/remotes/origin/master",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/02/96c020cf5f1bb22d81cf1ded235d6f8072da30",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/03/afc2b666f65367631bea88848d30210da76a2d",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/0e/7ba17306266980f563301bbed4fd598b4b9287",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/10/f2375ac2a3765cba0498dad3429c29f9812ce4",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/11/d92fbcc0c62ed92ebf1984b080861302271567",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/14/7f7e7ec7984690769d7cd7d8870d1bf7d8c9df",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/15/4a23860f54e87d1bdcc8a0d5c58a707105a0ed",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/15/c16bcb37a6fd277cf4a5f8b497b408fe8fb532",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/16/71fce11d8a7706387fbdc0aea3fc776dcf4081",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/1c/076d32c95f0f5b5eee35c7c2d473fd9d68b29e",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/1d/6cc1cee95dce8abe58a4452277bb6acca34f34",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/1e/69077ae0f8ff0ef24730004dfea007f0379058",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/1f/5d69a973c147db1b98b7c4234c0387ade1a63b",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/20/81b7a047260be033517d418187dd6e0685164e",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/26/9254061241e3c04d064ab8ea0b31628b201830",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/2a/88c2174467eb40ac3bffc6e4d8cb9b755dc41d",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/2b/6b27fa7f9fb9480bf052e121e36bdeb8ab820a",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/2c/5ba76df0ce07929f0b03a4da3a251fbcacf78e",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/2d/25210dc1702d087e0c9fb3737370c63b1c5738",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/2e/3d1486b5ec880a31ea406ee1e19d27db268c41",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/2f/4a382c99db38daa32b9360c0c44c62ac0320d5",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/33/389cae5f79e4c29c409a6bec8f460cce002aeb",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/34/27cb7a2cd03623c4021b3ad6ff76bec8117f80",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/35/935e439e4bcf7133297c7ce7b60acb104a8073",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/39/151dfd2d9bce8215d4ef4406db0179d9164fee",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/3a/143e074edf299bc049e53d885ff038b4561fc9",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/3b/5b33d02df8c84f51d4e6c5b00d9413b0346456",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/3b/df6ca7142bb52c45759beb7b217baed94ee25c",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/3d/6309d78448c5c3387fa918d0689f8f47d25945",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/3e/1b5d2728b2d77e1a749619366e66477ae79497",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/3e/8b2dac6238cca74587054bdb3734fbaeadc016",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/3f/f82abe7053ab7a5075acadd7a4db3ebfa65485",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/41/45015debc4d22b35225baa6eb3456ae280f596",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/42/21aa76a7ef076aca60b2191ea6ec8275055b1e",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/45/1368373d0d7bd7d0d49790d4f02e693260d7d7",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/46/6c9fd0ef51c9a6d2fe3d023885a3d2f71640b4",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/46/cd372f9f99c6584e0bae850b1ff4501aa9f3d2",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/47/12925e341d97e1cdfbd3175e3f71639c77a50c",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/48/ae4046fccc9bf9fe1e4948f515721ee50df28e",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/49/9717abc088717ff6e6b856163ca41b89dd663b",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/4a/53773349424bb2afedaa7fc31eed94103248c8",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/4e/32371814afd3822ff11520f18e91cf5fb9e408",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/4f/9e2ec3860dbbb46206f3f6b6356b22e43845d1",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/4f/bef98bd6daa7244b8de9de6ef638c93d0a8722",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/53/5a792f896ae8cbf7c8015f86d7a853271e38cb",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/53/c1b98085ce7a83f6b02220d8dd886ac7e08cab",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/56/aece990f1797e3d2e4ee8c95afc334a8e19591",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/56/afeb5e9bf8e3c01e551bd84bf10a64ff192a8e",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/58/a266a74efc78bb1ecfa23b84de51cf8d2163e9",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/59/94fc1fe311a142d1464a3a2880b41b9e94d6a0",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/60/facf4d3cfa133272ebf734b5854ead39592e65",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/64/7c3f9f4e521485471d6480f8ba8bdd53f851dd",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/67/4605f9c7a3855406b9fc704bdcb291f44dcc88",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/68/c9674196ea1d146f5e6ec7af93006730b3a156",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/6e/610c24b56b72d06b53007203285c7194f597af",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/6e/6f1e11998c826ca66b4e18cb32d401a64971d6",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/70/925523e11cffe940a6ad642a470a933964f832",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/75/6bc0116573528c6886497e494bc170504931c2",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/75/85545d1e3a88dd1b0e01e334ed2f990d310c6d",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/75/942a05177cee574c456d4f1ed45261987d2f48",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/7a/08f874897c28e7e520cddfa5b482cf7881fdf9",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/7c/58be30526ec9ede9b3924a59a5b5b34f1a4abc",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/80/7961e11981e066b6cd8245dcb79e51073649f7",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/83/7663e9c9d33c320c5406ec513690f38b236f1f",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/86/8750d19260641f254f520267e388a87337d189",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/87/c0a9ce4ca418c36b80d284635248be960ee207",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/89/cc9fd56acca5d400d63f8830210431d1bc4c04",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/8a/3c4c3cf491256d1077325729c1d96a92605608",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/8a/8d8a525d688799d60e1bf80d91fb1446f439bd",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/8a/fdc2143c459050aa04f88ea3abce14fe01e860",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/8d/d9dd55cdc02dfa5187186f9e16a3f580eecdbd",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/8e/d26aec2a1ef0cd4fa193d20c38935e665f7eaa",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/8e/eb5f75f33eb4397cb9a9809c2e7800cff555e9",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/8f/48a6a69e607db1f003394e2ad2114e2add6ef3",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/90/3b3af2f8237e851dad3b91d8763be618db8ab8",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/90/5be62e4bf0b26c18fdd30d5ae1ca276aa03be6",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/91/3f02b60c050e69b0a9c69392bc6c2de0869073",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/97/65b1bda7e5bddf0925555ab204b887a873bf24",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/97/93494823375a4c5556d494f7c0c5799c4c03a2",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/98/26fc9af5d17cc8b5211a1796109389e45d6662",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/99/9d8c6c32539d3429cf6b03a5d50f255642b2fe",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/9b/3b4348932cdcdc646f08017c1af07c84dbd154",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/9b/5764a6eb973c7e7452a810d3c932f65103531b",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/9e/cc5ee6da342f2a4b6ff5468a7a1639ad63775a",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/a0/0bec75c892ba4663772b39df29bff9bd982bac",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/a3/a8eaa7b4df5b0dda45fe628980048bbb63e0f6",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/a4/6420f96688f9cc5484607a74d8b36213f8ca5b",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/a5/08303d9907e2c4cdcd6857ef1dd988bcd0364c",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/a6/62a5479c370c64113fb61ed29e8da182643545",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/a7/7e347492e2f03ceebd5f91ae740f7ed005d524",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/a9/ffdfb54928086509350d13a07858611bf94a8c",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/aa/ed57f5384e8fd68b1ab01fec63ca1a25f1a364",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ab/0fe706619eb248154408798432783345d0247d",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/af/7428308b3fc92a09657354b2de6f89b265dade",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/b0/8c0469827f22a15f0bd75493e45d1fd3c91afe",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/b1/b117b92684ef27b994a7be46ec6c9aef1788b5",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/b2/0efc20f10274a13aaaa43bdaa1fdefcf4d7d0d",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/b2/ba5158bb85ac0a30b604bd3f2fc160abcaf147",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/b6/773e0ebf4e87bf31ce77b4bca96e994cab592c",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/b8/66196bdc328039046920c50961184ceeebdb60",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/b8/c5cdc70cc7ab07ac109953ca8e7825aba49237",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/bb/b87ce9f8205e3f293b50c4b45ff7e6866b5e19",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/bf/63e5e2eb3f761b3ad16af09ce3adb7b2a0c933",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/c1/92463f0256cbe4aefb189b94dc859303bca215",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/c1/c6df26453f34b00ba001f80a4217d33a8a2a6c",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/c3/199a7d9ea76558ed0461d901f684eb38b09703",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/c3/a2f173929bfddacafe91550428371494e73852",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/c8/03720ce294664cf08ba82971cf991ed2861f11",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/cb/230e2b7774faa29a0b2a358a8ffda5834a3dc7",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/cd/85bfd738077a2cf1f4ec3ce197eb788757e62b",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ce/45ae961ecfd3dab761c63f2df998868dcc716f",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ce/67abbf44febed76c31cdb7ddc959663ffe2607",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ce/fb91becbbc3cf5f355880d0f0ff47e798df612",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/d1/bbe9d3898e8efb171c41dc02acf3ea63d94b1f",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/d7/760979b4f1b2094668ec6c60c90b07097d1e3f",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/d8/5acff567bd43c4b1d3d2dff567990b26ebd0cd",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/d8/9103b83ac89f25efdb444daa8d2798c3a21b84",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/d9/ee1d9e140ac6e1542e0967c7844dd6add2b458",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/dd/f1652b378fb0a53af272c17da8c1fc3212b4d1",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/de/e59a89f2ce75ae60d7671b3e4481073632a4c3",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/df/7f880155ef2a80986530b40b9fc0ec37c737df",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e0/028b8f305803e14e2978889d4c10bb0bebafd4",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e1/2253b81a3cd8b2d4d0591a979df341e2156228",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e2/14eb1c2f6030247480ead0c56d272c3b1e2020",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e3/52ace284d97c6dfbda9faff5e12ad27dc60c59",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e3/76b97cf0c0116fbbe6837499a805ca7f9807ab",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e8/6c6e203c49237214078945c5fda3fca25c5efc",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e8/b8bafa00b719170b750ed167d5359f89d21852",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ea/48db22988fa8e94bacc4722a129a001e176a83",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ea/9d724aef2d6561ecb0c377cf87217ef58ae452",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ed/1494be6287a261f0bc4830f45aa3aff8da9f94",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ee/06a34fb1151a68b5906fc753caa4cc0f55fcd5",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ef/998825287504bed998d699cc18d1c8f453cc2d",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f0/984a56bb75adcc6bb15d0d364608c31eb1f017",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f1/46e66f33b1dd680ac7495b1f173be53e0d4e87",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f1/a427ea1c2465f67afa2cea51051de1f46eee4a",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f1/f658297522533d4031e904db3c30e6aa06bd08",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f2/ee4dd9f8971cad121b68e3ccb503a64fc6b09f",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f3/95f0ec9fff23092d91de560f77ce62f0d4588c",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f5/e5dde04d63eed9836d9d46117ea066dc19b621",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f8/668b66941197d3619e3c83a7dafd7e10102338",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/fa/a432e044ba3cfde14433d1391bf6c9a9a5a6f2",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/fd/4ddc26e6e51e79aec50f4c036cfb20b780591f",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ff/17e40e5bfd197bee2c7ff08eca4758e7bb6b25",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/refs/remotes/origin/master",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/components/videoPlayers/LiveFullscreenPlayer.js",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e0",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e1",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e2",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e3",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/e8",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ea",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ed",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ee",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ef",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f0",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f1",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f2",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f3",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f5",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/f8",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/fa",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/fd",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ff",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/refs",
+        "type": "delete"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/bb",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/bf",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/c1",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/c3",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/c8",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/cb",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/cd",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/ce",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/d1",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/d7",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/d8",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/d9",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/dd",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/de",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/objects/df",
+        "type": "modify"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git/refs/heads/master",
+        "type": "add"
+      },
+      {
+        "path": "Debug/projects/smartersProDemoApp-main/.git",
+        "type": "delete"
       }
     ]
   }

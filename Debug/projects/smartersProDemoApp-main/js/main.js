@@ -106,7 +106,12 @@ window.onload = function () {
   };
 
   // if (typeof logAllDnsEntries === "function") logAllDnsEntries();
-  if (typeof getTmbdId === "function") getTmbdId();
+  // Firebase desativado (nao utilizado). Remove dados antigos baixados dele.
+  try {
+    localStorage.removeItem("tmbdId");
+    localStorage.removeItem("all_dns");
+  } catch (e) {}
+  // if (typeof getTmbdId === "function") getTmbdId();
 };
 
 function showSplashScreen() {

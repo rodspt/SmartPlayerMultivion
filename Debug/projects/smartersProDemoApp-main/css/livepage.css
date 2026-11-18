@@ -1357,3 +1357,13 @@
     background: var(--app-gradient) !important;
     color: white !important;
 }
+/* Preview e grade de programacao desativados: o canal abre direto em tela
+   cheia (components/videoPlayers/LiveFullscreenPlayer.js). */
+.lp-layout-wrapper {
+    grid-template-columns: 32% 1fr;
+    grid-gap: 30px;
+}
+
+.lp-right-column {
+    display: none !important;
+}

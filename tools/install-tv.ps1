@@ -93,17 +93,36 @@ Write-Host ("Pacote: {0} ({1:N1} MB)" -f $wgt.FullName, ($wgt.Length / 1MB)) -Fo
 
 # --- 4. Instalar ----------------------------------------------------------
 Write-Step "Instalando na TV"
-$out = & $tz install -w $projDir -p $wgt.FullName -e $Device 2>&1
-$out | Where-Object { $_ -notmatch "installing\[\d+\]" } | Out-Host
-if ($LASTEXITCODE -ne 0 -or ($out -join "`n") -notmatch "install completed") {
-    Fail "Instalacao falhou. Se for erro de certificado, o perfil de assinatura precisa incluir o DUID desta TV."
+# "$_" converte o stderr em texto (evita o bloco vermelho NativeCommandError do PowerShell 5.1)
+$out = @(& $tz install -w $projDir -p $wgt.FullName -e $Device 2>&1 | ForEach-Object { "$_" })
+$tzExit = $LASTEXITCODE
+$out | Where-Object { $_ -notmatch "installing\[\d+\]|pushed .*%" } | Out-Host
+$outText = $out -join "`n"
+
+# So "install completed" confirma a instalacao. "cmd_ret:0" NAO basta: a TV
+# responde cmd_ret:0 mesmo quando recusa o pacote (ex.: "download failed[116]").
+# O tz faz uma verificacao extra depois (pkgcmd -l via sdb) que pode falhar se a
+# conexao com a TV oscilar, mesmo com o app ja instalado.
+$failLine = ($out | Where-Object { $_ -match "\] (install|download|uninstall) failed\[|install failed" } | Select-Object -First 1)
+if ($failLine -or $outText -notmatch "install completed") {
+    if ($failLine) { Write-Host "A TV respondeu: $($failLine.Trim())" -ForegroundColor Red }
+    Fail ("Instalacao falhou. Verifique: conexao com a TV; certificado do perfil de assinatura incluindo o DUID desta TV; " +
+          "arquivos indevidos no pacote (veja 'excludes' em tizen_web_project.yaml).")
 }
+if ($tzExit -ne 0) {
+    Write-Host "Aviso: a TV confirmou a instalacao, mas a verificacao final do tz falhou (conexao oscilando?). Seguindo." -ForegroundColor Yellow
+}
+Write-Host "Instalado com sucesso." -ForegroundColor Green
 
 # --- 5. Abrir -------------------------------------------------------------
 if (-not $NoRun) {
     Write-Step "Abrindo o app"
-    & $tz run -w $projDir -e $Device
-    if ($LASTEXITCODE -ne 0) { Fail "Nao foi possivel abrir o app (codigo $LASTEXITCODE)." }
+    & $sdb connect $Device | Out-Null
+    $runOut = @(& $tz run -w $projDir -e $Device 2>&1 | ForEach-Object { "$_" })
+    $runOut | Out-Host
+    if ($LASTEXITCODE -ne 0 -and ($runOut -join "`n") -notmatch "successfully launched") {
+        Write-Host "Aviso: nao foi possivel abrir o app automaticamente. Abra-o pelo menu da TV." -ForegroundColor Yellow
+    }
 }
 
 Write-Host "`nConcluido: app instalado em $Device." -ForegroundColor Green

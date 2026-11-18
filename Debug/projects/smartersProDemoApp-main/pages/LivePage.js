@@ -10,7 +10,7 @@ function LivePage() {
   let selectedCategoryId = "All";
 
   // Navigation State
-  let focusedSection = "player"; // Start with player focused
+  let focusedSection = "channels"; // Preview desativado: foco inicia nos canais
   let sidebarIndex = 0;
   let channelIndex = 0;
   let buttonFocusIndex = -1; // -1 = no button focused, 0 = heart, 1 = remove
@@ -216,12 +216,12 @@ function LivePage() {
 
   const init = () => {
     // Explicitly reset state on init
-    focusedSection = "player"; // Start with player focused
+    focusedSection = "channels"; // Preview desativado: foco inicia nos canais
     sidebarIndex = 0;
     channelIndex = 0;
     buttonFocusIndex = -1;
     playerSubFocus = 0;
-    playerVisualFocus = true; // Player should have visual focus initially
+    playerVisualFocus = false; // Preview desativado
     epgIndex = -1;
     currentPlayingStream = null;
     lastToggleTime = 0;
@@ -1136,7 +1136,77 @@ function LivePage() {
     // Update categorical indicator whenever focus or selection might have changed position
     updateCategoryIndicator();
   };
+  // Canal bloqueado pelo controle parental? (usado ao trocar canal em tela cheia)
+  const isStreamParentalLocked = (stream) => {
+    const pl = getCurrentPlaylist();
+    if (!pl || !pl.parentalPassword) return false;
+    const category = (window.liveCategories || []).find(
+      (c) => String(c.category_id) === String(stream.category_id),
+    );
+    const isAdult =
+      (category && isLiveAdultCategory(category.category_name)) ||
+      isLiveAdultCategory(stream.name);
+    if (!isAdult) return false;
+    const id = String(stream.stream_id);
+    return !(
+      unlockedLiveAdultChannelsInAll.has(id) ||
+      unlockedLiveAdultChannelsInFavorites.has(id) ||
+      unlockedLiveAdultChannelsInHistory.has(id) ||
+      unlockedLiveAdultChannelsInCategories.has(id) ||
+      unlockedLiveAdultCatIds.has(String(stream.category_id)) ||
+      unlockedLiveAdultCatIds.has("All")
+    );
+  };
+
+  const addLiveHistory = (stream) => {
+    if (selectedCategoryId === "channelHistory" || !window.addItemToHistory)
+      return;
+    const category = (window.liveCategories || []).find(
+      (c) => c.category_id === stream.category_id,
+    );
+    const isAdultChannel =
+      (category && isLiveAdultCategory(category.category_name)) ||
+      isLiveAdultCategory(stream.name);
+    if (!isAdultChannel) window.addItemToHistory(stream, "ChannelListLive");
+  };
+
+  // Abre o canal direto em tela cheia (AVPlay na TV), sem preview nem grade
+  const openFullscreenChannel = (stream) => {
+    let list = filteredStreams && filteredStreams.length ? filteredStreams : [stream];
+    let idx = list.findIndex(
+      (s) => String(s.stream_id) === String(stream.stream_id),
+    );
+    if (idx < 0) {
+      list = [stream];
+      idx = 0;
+    }
+    LiveFullscreenPlayer.open({
+      streams: list,
+      index: idx,
+      canPlay: (s) =>
+        String(s.stream_id) === String(stream.stream_id) ||
+        !isStreamParentalLocked(s),
+      onChannelChange: (s) => {
+        currentPlayingStream = s;
+        addLiveHistory(s);
+      },
+      onClose: (s, i) => {
+        currentPlayingStream = null;
+        if (list === filteredStreams) channelIndex = i;
+        focusedSection = "channels";
+        buttonFocusIndex = -1;
+        renderCategories();
+        renderChannels();
+        updateFocus();
+      },
+    });
+  };
+
   const playChannel = (stream) => {
+    if (stream && typeof LiveFullscreenPlayer !== "undefined") {
+      openFullscreenChannel(stream);
+      return;
+    }
     if (!stream) {
       // Stop Player Logic
       const videoWrapper = document.querySelector(".lp-video-wrapper");
@@ -1956,8 +2026,7 @@ function LivePage() {
     } else if (focusedSection === "sidebar") {
       focusedSection = "channels";
     } else if (focusedSection === "channelSearch") {
-      focusedSection = "player";
-      playerSubFocus = 1; // Focus Play/Pause
+      // Preview desativado: permanece na busca de canais
     } else if (focusedSection === "channels") {
       if (buttonFocusIndex === -1) {
         buttonFocusIndex = 0; // Focus Heart Button
@@ -1966,11 +2035,8 @@ function LivePage() {
         selectedCategoryId === "channelHistory"
       ) {
         buttonFocusIndex = 1; // Focus Remove Button
-      } else {
-        focusedSection = "player";
-        playerSubFocus = 1; // Focus Play/Pause
-        buttonFocusIndex = -1;
       }
+      // Preview desativado: nao navega para o player
     }
   };
 

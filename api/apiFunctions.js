@@ -1,4 +1,7 @@
-const TMBD_API_KEY = localStorage.getItem("tmbdId");
+// Chave da API do TMDB (elenco de filmes/series). Coloque aqui a SUA chave
+// (https://www.themoviedb.org/settings/api). Vazia = nenhuma chamada ao TMDB.
+const TMDB_API_KEY = "";
+const TMBD_API_KEY = TMDB_API_KEY;
 // const TMBD_API_KEY = localStorage.getItem("tmbdId") ? localStorage.getItem("tmbdId") : "a21eeaca44af5d2a4349214ecba1b338";
 
 const castImageUrl = "https://image.tmdb.org/t/p/w500";
@@ -627,11 +630,10 @@ async function getLiveCategories() {
 }
 
 async function getSeriesTmbdId(seriesName) {
+    if (!TMDB_API_KEY) return null; // sem chave propria: nao consulta o TMDB
     try {
         const response = await fetch(
-            `https://api.themoviedb.org/3/search/tv?api_key=${localStorage.getItem(
-        "tmbdId"
-      )}&query=${seriesName}`
+            `https://api.themoviedb.org/3/search/tv?api_key=${TMDB_API_KEY}&query=${seriesName}`
         );
 
         if (!response.ok) throw new Error("Failed to fetch getSeriesTmbdId");
@@ -642,11 +644,10 @@ async function getSeriesTmbdId(seriesName) {
 }
 
 async function getSeriesCast(seriesId) {
+    if (!TMDB_API_KEY) return null; // sem chave propria: nao consulta o TMDB
     try {
         const response = await fetch(
-            `https://api.themoviedb.org/3/tv/${seriesId}/credits?api_key=${localStorage.getItem(
-        "tmbdId"
-      )}`
+            `https://api.themoviedb.org/3/tv/${seriesId}/credits?api_key=${TMDB_API_KEY}`
         );
         if (!response.ok) throw new Error("Failed to fetch getSeriesCasts");
         return await response.json();
@@ -656,11 +657,10 @@ async function getSeriesCast(seriesId) {
 }
 
 async function getMovieCast(movies_tmbd_id) {
+    if (!TMDB_API_KEY) return null; // sem chave propria: nao consulta o TMDB
     try {
         const repsonse = await fetch(
-            `https://api.themoviedb.org/3/movie/${movies_tmbd_id}/credits?api_key=${localStorage.getItem(
-        "tmbdId"
-      )}`
+            `https://api.themoviedb.org/3/movie/${movies_tmbd_id}/credits?api_key=${TMDB_API_KEY}`
         );
 
         if (!repsonse.ok) throw new Error("Failed to fetch getMovieCast");
