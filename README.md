@@ -77,9 +77,25 @@ python -m http.server 8080
 
 Abra `http://localhost:8080` e navegue com **setas, Enter e Backspace/Esc**, como no controle remoto.
 
+### Abrir o Chrome como se fosse uma TV Samsung (recomendado)
+
+Muitos servidores IPTV ficam atrás do **Cloudflare** e bloqueiam navegadores de computador pelo User-Agent. O login retorna **403** ("Attention Required! | Cloudflare"), mesmo com usuário e senha corretos. UAs de TV (Tizen) e de Android são liberados. Por isso, no PC, abra o app com o UA de uma TV Samsung:
+
+```powershell
+& "C:\Program Files\Google\Chrome\Application\chrome.exe" `
+  --user-data-dir="$env:TEMP\chrome-tizen" `
+  --user-agent="Mozilla/5.0 (SMART-TV; LINUX; Tizen 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Version/5.0 TV Safari/537.36" `
+  http://localhost:8080
+```
+
+- O `--user-data-dir` cria um perfil separado. Sem ele, se o Chrome já estiver aberto, o `--user-agent` é ignorado.
+- Para testar a API direto: `curl "http://servidor:porta/player_api.php?username=X&password=Y"`. O curl não é bloqueado.
+- Alternativa sem reabrir o Chrome: abra o DevTools (F12), vá em ⋮ → *More tools* → *Network conditions* → *User agent*, desmarque "Use browser default" e cole o UA acima. Só vale enquanto o DevTools estiver aberto.
+
 Limitações no navegador:
 - As APIs `tizen`/`webapis` (teclas do controle, sair do app, volume) só existem na TV. No console, o erro de `$WEBAPIS/webapis/webapis.js` é esperado.
-- Alguns servidores IPTV bloqueiam requisições do navegador por **CORS**. Nesse caso, teste na TV.
+- O vídeo ao vivo usa hls.js no navegador. Na TV usa o AVPlay (player nativo da Samsung).
+- Alguns servidores IPTV também bloqueiam requisições do navegador por **CORS**. Nesse caso, teste na TV.
 
 ---
 
@@ -200,6 +216,7 @@ E para procurar sintaxe incompatível: `grep -rnE "catch\s*\{|\?\.|\?\?" --inclu
 
 | Sintoma | Causa provável / solução |
 |---|---|
+| Login dá **403** no navegador do PC (página do Cloudflare), mas funciona na TV | O servidor bloqueia UA de navegador desktop; abra o Chrome com o UA do Tizen ([ver comando](#abrir-o-chrome-como-se-fosse-uma-tv-samsung-recomendado)) |
 | Uma seção inteira não carrega na TV, mas funciona no navegador | Sintaxe JS moderna; veja [Compatibilidade](#compatibilidade-com-tvs-antigas-importante) |
 | `Invalid Playlist URL (Status: ...)` no login | Servidor, usuário ou senha incorretos, ou servidor fora do ar. Teste `http://servidor/player_api.php?username=X&password=Y` no navegador |
 | `Account not activated` | A API retornou `auth != 1` ou `status != "Active"` |
